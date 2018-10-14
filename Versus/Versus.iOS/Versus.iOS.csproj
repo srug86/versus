@@ -148,13 +148,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.2.0.871581" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Versus\Versus.csproj">
-      <Project>{3AF272DE-32D0-425D-BFE7-901572EE9445}</Project>
-      <Name>Versus</Name>
+    <ProjectReference Include="..\Versus.Core\Versus.Core.csproj">
+      <Project>{1CE8A1CE-5DC9-485C-B182-F9FCA9CCA844}</Project>
+      <Name>Versus.Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

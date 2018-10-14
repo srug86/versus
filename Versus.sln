@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versus.Android", "Versus\Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versus.iOS", "Versus\Versus.iOS\Versus.iOS.csproj", "{59393FF2-9C6F-433C-A83B-E8A4A68F532F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versus", "Versus\Versus\Versus.csproj", "{1CE8A1CE-5DC9-485C-B182-F9FCA9CCA844}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versus.Core", "Versus\Versus.Core\Versus.Core.csproj", "{1CE8A1CE-5DC9-485C-B182-F9FCA9CCA844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using Versus.Core.Bootstrap;
+using Versus.Core.Contracts.Services.General;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +13,20 @@ namespace Versus
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            InitializeApp();
+
+            InitializeNavigation();
+        }
+
+        private async Task InitializeNavigation()
+        {
+            var navigationService = AppContainer.Resolve<INavigationService>();
+            await navigationService.InitializeAsync();
+        }
+
+        private void InitializeApp()
+        {
+            AppContainer.RegisterDependencies();
         }
 
         protected override void OnStart()
